@@ -99,19 +99,18 @@ Comando ejecutado:
 Resultado:
 
 ```text
-HTML: status 200
+▶ HTML: https://practica-firebase-cicd-fd7ad.web.app/
+  status 200
+  ✔ content-security-policy: default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline';img-src 'self' https:…
+  ✔ strict-transport-security: max-age=31556926; includeSubDomains; preload
+  ✔ x-content-type-options: nosniff
+  ✔ x-frame-options: DENY
+  ✔ referrer-policy: strict-origin-when-cross-origin
+  ✔ permissions-policy: camera=(), microphone=(), geolocation=()
+  · cache-control: public, max-age=0, must-revalidate
 
-✔ content-security-policy
-✔ strict-transport-security
-✔ x-content-type-options: nosniff
-✔ x-frame-options: DENY
-✔ referrer-policy: strict-origin-when-cross-origin
-✔ permissions-policy: camera=(), microphone=(), geolocation=()
-
-cache-control HTML: max-age=3600
-
-Asset estático:
-✔ cache-control: public, max-age=31536000, immutable
+▶ Asset estático: /_next/static/chunks/1x6obpmlu1_c2.js
+  ✔ cache-control: public, max-age=31536000, immutable
 
 ✅ Todos los controles pasaron.
 ```
